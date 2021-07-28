@@ -28,7 +28,8 @@ body {
 .leftbox {
   color: #fff;
   width: 50%;
-  padding-right: 60px;
+  padding-right: 30px;
+  padding-left: 95px;
 }
 .leftbox h1 {
   margin-bottom: 30px;
@@ -38,6 +39,7 @@ body {
 }
 .rightbox {
   width: 50%;
+  padding-right: 100px;
 }
 
 .rightbox .form-head {
@@ -107,19 +109,24 @@ button {
   color: hsl(0, 100%, 74%);
 }
 
-form .form-elements i {
+.form-elements {
   position: relative;
-  left: 94%;
-  bottom: 40px;
+  margin-bottom: 27px;
+}
+
+form .form-elements i {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
   font-size: 2em;
   color: hsl(0, 100%, 74%);
   visibility: hidden;
 }
 
 form .form-elements small {
-  position: relative;
-  left: 60%;
-  bottom: 15px;
+  position: absolute;
+  right: 3px;
+  bottom: -17px;
   color: hsl(0, 100%, 74%);
   visibility: hidden;
 }
