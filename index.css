@@ -41,7 +41,7 @@ body {
 .rightbox {
   width: 50%;
   padding-right: 100px;
-  min-width: 500px;
+  min-width: 400px;
 }
 
 .rightbox .form-head {
@@ -162,18 +162,22 @@ form .error small {
     width: 100%;
     text-align: center;
     margin-bottom: 60px;
-    padding-right: 0;
+    padding-right: 30px;
+    margin-right: 0;
     padding-left: 30px;
-    min-width: none;
+    min-width: 0;
   }
 
   .leftbox h1 {
     font-size: 30px;
+    margin-right: 0;
+    width: 100%;
   }
 
   .rightbox {
     width: 100%;
     margin-bottom: 40px;
-    min-width: none;
+    padding: 0 20px;
+    min-width: 0;
   }
 }
